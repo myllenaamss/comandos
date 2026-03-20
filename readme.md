@@ -35,3 +35,19 @@ usuario/documento´ |
 | ´rm´ | ´ Sua principal função é capturar, validar e processar os dados dos terminais (coletores) para otimizar o tratamento de horários, turnos e jornadas´ |  ´Sistema completo de gestão de Recursos Humanos, que atende aos processos como folha de pagamento, ponto eletrônico, cargos e salários, entre outros` | ´rm arquivo.txt´ |
 | ´mv´ | ´Serve fundamentalmente para mover arquivos e diretórios de um local para outro e renomear arquivos ou pastas´ |  ´Soul MV` | ´mv arquivo_antigo.txt arquivo_novo.txt´ |
 | ´cp´ | ´Copiar arquivos e diretórios de um local para outro´ |  ´Essencial para documentar o domínio do sistema ao criar backups, duplicar arquivos de configuração ou organizar documentos´ |  ´cp arquivo.txt arquivo_backup.txt` |
+|`rmdir`|`Remove um diretório vazio`|`Ambos`|`rmdir projetos`|
+|`echo`|`Exibe texto ou escreve em arquivo`|`Ambos`|`echo "Olá Mundo`|
+|`del`|`Remove arquivo`|`Windows`|`del arquivo.txt`|
+|`move`|`Move ou renomeia arquivos/pastas`|`Windows`|`move arquivo.txt D:\NovaPasta\`|
+|`icacls`|`Gerencia permissões de arquivos/pastas`|`Windows`|`icacls arquivo.txt /grant Usuario:F`|
+|`tasklist`|`Lista processos em execução`|`Windows`|`tasklist`|
+|`findstr`|`Busca texto dentro de arquivos`|`Windows`|`findstr "erro" log.txt`|
+|`notepad`|`Cria/edita arquivo`|`Windows`|`notepad novo.txt`|
+|`dir /s`|`Lista arquivos recursivamente em subpastas`|`Windows`|`dir /s *.txt`|
+|`dir /a`|`Lista todos os arquivos, incluindo ocultos e de sistema`|`Windows`|`dir /a`|
+|`rm -r`|`Remove diretório com conteúdo`|`Linux`|`rm -r pasta`|
+|`cat`|`Exibe conteúdo de arquivos`|`Linux`|`cat arquivo.txt`|
+|`ls -la`| `Lista todos os arquivos, incluindo ocultos (-a) e mostra detalhes completos como permissões, dono, tamanho e data (-l)`| `Linux`|`ls -la /home/usuario`|
+|`find`|`Procura arquivos e diretórios de forma recursiva, baseado em nome, tipo, tamanho ou outros critérios`|`Linux `|`find /home/usuario -name "*.txt"`|
+|`grep`|`Procura por texto dentro de arquivos, muito usado para filtrar resultados`|`Linux`|`grep "erro" log.txt`|
+|`chmod`|`Modifica permissões de arquivos e diretórios`|`Linux`|`chmod 755 script.sh`|
